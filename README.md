@@ -1,14 +1,16 @@
-Global E-Commerce Sales Analysis
-For this project, I used SQL to analyze 2,000 e-commerce orders and look at sales, profits, customer segments, and payment methods across different countries and regions. 
-I also created an interactive Tableau dashboard to show the results, including total sales of $484.6K, total profit of $158.9K, and 2,000 orders. 
-The dashboard includes different charts and filters to make it easier to explore the data.
+# Global E-Commerce Sales Analysis
 
-Tools Used: SQL (DuckDB), Tableau, Figma
+Analysis of 2,000 e-commerce orders across 20 countries, covering sales, profit, customer segments, and payment methods. I used SQL (DuckDB) for the analysis and built an interactive Tableau dashboard to present the results.
 
-Tableau Dashboard: https://public.tableau.com/app/profile/hasini.j7924/viz/SQL_17917697453720/Dashboard1
+**Tools:** SQL (DuckDB), Tableau, Figma
+**Interactive dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/hasini.j7924/viz/SQL_17917697453720/Dashboard1)
 
-<img width="1499" height="999" alt="Dashboard 1" src="https://github.com/user-attachments/assets/9c43a9c0-54ff-4467-9193-cf9d464d0c66" />
+## Key Findings
+- Total sales of $484.6K, total profit of $158.9K, and 2,000 orders
+- Mexico, Canada, and the United States were the top three markets, accounting for 28% of total sales
+- Consumer customers generated $87.3K in profit, about 55% of the total
+- Credit card was the most-used payment method (797 of 2,000 orders), followed by PayPal (609)
 
-
-
-
+## Files
+- `analysis.sql`: SQL queries used for the analysis
+- `global_ecommerce_sales.csv`: dataset
